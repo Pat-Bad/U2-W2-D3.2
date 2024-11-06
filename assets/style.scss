@@ -40,7 +40,7 @@ h1 {
   margin-top: 5rem;
 }
 
-//devo usare un ciclo if?//
+//devo usare un ciclo if? Per dire, se ti trovi qui usa float ma senza quelle due proprietà. Forse devo usare un mixin con dei parametri. No, forse devo sovrascrivere queste proprietà dandogli none.//
 .griglia div {
   width: 200px;
   height: 200px;
