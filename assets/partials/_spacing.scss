@@ -1,0 +1,14 @@
+//devo creare gli spacing con un ciclo @each//
+$padding-size: sm, normal, md, lg, xl, xxl;
+$padding-value: 10px, 15px, 20px, 25px, 30px, 35px;
+
+@each $size in $padding-size {
+  @each $pixel in $padding-value {
+    .padding-block-#{$size}-#{$pixel} {
+      padding-block: $pixel;
+    }
+    .padding-inline-#{$size}-#{$pixel} {
+      padding-inline: $pixel;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+$font-sizes: 1rem, 1.5rem, 2rem;
+
+@each $font-size in $font-sizes {
+  .char-size-#{$font-size} {
+    font-size: $font-size;
+  }
+}

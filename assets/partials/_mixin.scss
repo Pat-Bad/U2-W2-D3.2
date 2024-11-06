@@ -1,0 +1,12 @@
+@mixin title-big {
+  font-size: 4rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: aquamarine;
+}
+
+@mixin floating {
+  border-radius: 25px;
+  box-shadow: 3px 3px 8px 2px;
+  border: 2px solid yellowgreen;
+}

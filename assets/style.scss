@@ -1,0 +1,50 @@
+@import 'partials/mixin';
+
+@import 'partials/spacing';
+
+@import 'partials/buttons';
+
+nav {
+  background-image: url(https://media-assets.wired.it/photos/628f821638e4f91a835c8f61/16:9/w_2560%2Cc_limit/buco%2520nero.jpg);
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  ul {
+    display: flex;
+    align-items: center;
+    li {
+      margin-left: 2rem;
+    }
+  }
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.aside {
+  width: 200px;
+  height: 200px;
+  background-image: url(https://placedog.net/100/200);
+  @include floating;
+}
+
+h1 {
+  @include title-big;
+}
+
+.griglia {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+//devo usare un ciclo if?//
+.griglia div {
+  width: 200px;
+  height: 200px;
+  @include floating;
+  box-shadow: none;
+  border: none;
+}

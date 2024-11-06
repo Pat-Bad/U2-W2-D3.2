@@ -1,0 +1,9 @@
+$button-colors: 0e6cff, ff8700, 4caf50;
+
+//devo ciclare per creare tre classi//
+
+@each $color in $button-colors {
+  .singleBtn-#{$color} {
+    background-color: $color;
+  }
+}
